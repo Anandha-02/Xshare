@@ -1,0 +1,43 @@
+/* src/styles/home.css */
+body {
+  margin: 0;
+  font-family: 'Poppins', sans-serif;
+  background: url('../public/background.jpg') no-repeat center center fixed;
+  background-size: cover;
+  color: #fff;
+}
+
+.home-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  text-align: center;
+  backdrop-filter: blur(5px);
+}
+
+.home-container h1 {
+  font-size: 3rem;
+  margin-bottom: 1rem;
+  text-shadow: 2px 2px 8px rgba(0,0,0,0.6);
+}
+
+.home-container p {
+  font-size: 1.2rem;
+  margin-bottom: 2rem;
+  text-shadow: 1px 1px 6px rgba(0,0,0,0.5);
+}
+
+.home-container a.button {
+  padding: 12px 30px;
+  background-color: #007bff;
+  color: #fff;
+  text-decoration: none;
+  border-radius: 8px;
+  transition: background 0.3s ease;
+}
+
+.home-container a.button:hover {
+  background-color: #0056b3;
+}
